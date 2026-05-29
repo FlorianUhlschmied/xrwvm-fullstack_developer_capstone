@@ -4,68 +4,127 @@
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+
+<body>
+
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarText" aria-controls="navbarText"
+              aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
           <li class="nav-item">
             <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
           </li>
+
         </ul>
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-        <h1>About Us</h1>
-        Welcome to Best Cars dealership, home to the best cars in North America. We deal in selling domestic and imported cars at reasonable prices.
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+
+    <div class="banner" name="about-header" style="padding: 2%;">
+      <h1>About Us</h1>
+
+      <p>
+        Welcome to Best Cars dealership, home to the best cars in North America.
+        We specialize in selling high-quality domestic and imported vehicles at
+        competitive prices. Our mission is to provide customers with exceptional
+        service, trusted advice, and a seamless car-buying experience.
+      </p>
+
+      <p>
+        With years of experience in the automotive industry, our dedicated team
+        works hard to help every customer find the perfect vehicle that fits
+        their lifestyle and budget.
+      </p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; justify-content: space-around; margin: 2%; gap: 20px;">
+
+      <!-- Team Member 1 -->
       <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card image">
+        <img class="card-img-top"
+             src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=774&auto=format&fit=crop"
+             alt="CEO image">
+
         <div class="card-body">
-          <p class="title">Max Mustermann</p>
-          <p>CEO</p>
-          <p class="card-text">Max is a cool guy. His favorite sport is football.</p>
-          <p>max.mustermann@gmail.com</p>
+          <h4 class="title">Max Mustermann</h4>
+          <h5>Chief Executive Officer (CEO)</h5>
+
+          <p class="card-text">
+            Max has over 15 years of experience in the automotive industry and
+            is passionate about delivering outstanding customer satisfaction.
+            Under his leadership, Best Cars has grown into a trusted dealership
+            known for quality vehicles and reliable service.
+          </p>
+
+          <p>Email: max.mustermann@bestcars.com</p>
         </div>
       </div>
 
+      <!-- Team Member 2 -->
       <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="https://www.myposter.de/magazin/wp-content/uploads/2016/06/Portrait-junge-Frau-Brille-shutterstock_118972231_kl.jpg.webp" alt="Card image">
+        <img class="card-img-top"
+             src="https://www.myposter.de/magazin/wp-content/uploads/2016/06/Portrait-junge-Frau-Brille-shutterstock_118972231_kl.jpg.webp"
+             alt="Head of Sales image">
+
         <div class="card-body">
-          <p class="title">Sandra Kastani</p>
-          <p>Head of Sales</p>
-          <p class="card-text">Sandra is very friendly. Her favorite car is a Porsche.</p>
-          <p>sandra.kastani@gmail.com</p>
+          <h4 class="title">Sandra Kastani</h4>
+          <h5>Head of Sales</h5>
+
+          <p class="card-text">
+            Sandra leads the sales department with a customer-first approach.
+            She has helped hundreds of customers find their ideal vehicles and
+            is known for her honest advice, professionalism, and deep knowledge
+            of luxury and sports cars.
+          </p>
+
+          <p>Email: sandra.kastani@bestcars.com</p>
         </div>
       </div>
 
+      <!-- Team Member 3 -->
       <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="https://media.istockphoto.com/id/1919265357/de/foto/nahaufnahme-portr%C3%A4t-eines-selbstbewussten-gesch%C3%A4ftsmannes-der-im-b%C3%BCro-steht.jpg?s=612x612&w=0&k=20&c=yWWiDS8LT1HJssubTU6nhlDfTAmm7e5FRMOCa-clL7M=" alt="Card image">
+        <img class="card-img-top"
+             src="https://media.istockphoto.com/id/1919265357/de/foto/nahaufnahme-portr%C3%A4t-eines-selbstbewussten-gesch%C3%A4ftsmannes-der-im-b%C3%BCro-steht.jpg?s=612x612&w=0&k=20&c=yWWiDS8LT1HJssubTU6nhlDfTAmm7e5FRMOCa-clL7M="
+             alt="Head of Marketing image">
+
         <div class="card-body">
-          <p class="title">Benjamin Bruce</p>
-          <p>Head of Marketing</p>
-          <p class="card-text">Benjamin is a genius. His favorite color is red.</p>
-          <p>benjamin.bruce@gmail.com</p>
+          <h4 class="title">Benjamin Bruce</h4>
+          <h5>Head of Marketing</h5>
+
+          <p class="card-text">
+            Benjamin is responsible for the company’s branding and digital
+            marketing strategy. His innovative campaigns and market insights
+            have significantly expanded Best Cars' online presence and customer
+            engagement across North America.
+          </p>
+
+          <p>Email: benjamin.bruce@bestcars.com</p>
         </div>
       </div>
+
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
 
+</body>
 </html>
