@@ -4,30 +4,94 @@
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body>
 <div>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light"
+       style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            <a class="nav-link"
+               style="font-size: larger;"
+               aria-current="page"
+               href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+            <a class="nav-link"
+               style="font-size: larger;"
+               href="/about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+            <a class="nav-link active"
+               style="font-size: larger;"
+               href="/contact">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div style="color:red;">
-    You can simply contact us by writing an email to: info@wirkaufendeinauto.de
+  <!-- Contact Banner -->
+  <div class="banner" style="margin-top: 3%;">
+    <img src="/static/contactus.png"
+         alt="Contact Us"
+         style="width: 200px; margin-bottom: 20px;">
+    <h1>Contact Us</h1>
+    <p class="details" style="text-align: center; width: 70%;">
+      We are here to help you find your perfect vehicle.
+      If you have questions about our cars, financing options,
+      or dealership services, feel free to contact our team anytime.
+    </p>
+  </div>
+  <!-- Contact Information -->
+  <div class="row">
+    <!-- Left Card -->
+    <div class="card" style="width: 40%;">
+      <img src="/static/cars.jpeg"
+           alt="Cars image"
+           style="margin-top: 20px;">
+      <div class="card-body">
+        <p class="title">Customer Support</p>
+        <p class="details">
+          Email: info@wirkaufendeinauto.de
+        </p>
+        <p class="details">
+          Phone: +49 123 456789
+        </p>
+        <p class="details">
+          Address: 123 Auto Street, Berlin, Germany
+        </p>
+      </div>
+    </div>
+    <!-- Right Card -->
+    <div class="card" style="width: 40%;">
+      <img src="/static/person.png"
+           alt="Customer service representative"
+           style="margin-top: 20px;">
+      <div class="card-body">
+        <p class="title">Business Hours</p>
+        <p class="details">
+          Monday - Friday: 9:00 AM - 7:00 PM
+        </p>
+        <p class="details">
+          Saturday: 10:00 AM - 5:00 PM
+        </p>
+        <p class="details">
+          Sunday: Closed
+        </p>
+      </div>
+    </div>
   </div>
 </div>
+</body>
 </html>
